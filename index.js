@@ -1,6 +1,16 @@
-const operand = 12;
-const operand2 = 45;
+<<<<<<< HEAD
+let aPerson = { 
+    name: 'Jean',
+    age: 35,
+    gender: 'masculin',
+    interest: ['musique', 'Jeux videos'],
+};
 
-let result = operand + operand2;
+// on peut également déclarer et initialiser un objet de la façon suivante :
 
-console.log("resultat de" + operand + "+" + operand2 + "=" + result);
+let aPerson= new Object();
+aPerson.name = 'Jean';
+aPerson.age = 35;
+aPerson.gender = 'masculin';
+aPerson.interest = ['musique', 'badminton'];
+>>>>>>> premiereBranche
